@@ -1,0 +1,57 @@
+/* Your CSS goes here --------------------- */
+
+
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input[type=text] {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    border-color: #85E6C5;
+}
+
+input:hover {
+    background-color: beige;
+    font-style: italic;
+}
+
+#input {
+    background-color: #C8E4B2;
+}
+
+select {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#save-img {
+    border-style: dotted;
+    background-color: #4CAF50;
+    padding: 15px 15px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#output {
+    background-color: #5B9A8B;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+#mainheading {
+    font-size: 21px;
+    font-weight: bolder;
+    color: black;
+}

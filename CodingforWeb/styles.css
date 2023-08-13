@@ -1,0 +1,35 @@
+.button{
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #2b696a;
+    background-color: #abcdce;
+    border-style: dashed;
+    transition: 0.5;
+}
+
+.button:hover{
+    border: none;
+    background-color: #a7eaec;
+    scale: 115%;
+}
+
+.button-asm{
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #c9a802;
+    background-color: #efeeae;
+    transition: 0.5;
+}
+
+.button-asm:hover{
+    border: none;
+    background-color: #f7f59c;
+    scale: 115%;
+}
+
+hr{
+    border: 5px dashed #2b696a;
+    border-radius: 5px;
+}
