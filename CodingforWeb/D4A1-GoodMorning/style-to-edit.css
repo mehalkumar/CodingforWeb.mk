@@ -55,3 +55,7 @@ h2 {
     font-weight: bolder;
     color: black;
 }
+
+h1, h2{
+    -webkit-text-stroke-color: #446710;
+}
