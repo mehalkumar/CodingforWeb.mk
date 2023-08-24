@@ -5,7 +5,7 @@
     top: 0;
     background-color: #DBD226;
     border: 6px solid rgb(35, 34, 34);
-display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
@@ -89,8 +89,11 @@ h2{
         padding: 0;
         justify-content: space-between;
     }
+    #logo{
+        width: 30vw;
+    }
     .imgheading{
-        width: 30vh;
+        width: 30vw;
     }
 
     .main{
