@@ -91,9 +91,11 @@ h2{
     }
     #logo{
         width: 30vw;
+        height: auto;
     }
     .imgheading{
         width: 30vw;
+        height: auto;
     }
 
     .main{
