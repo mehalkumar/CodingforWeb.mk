@@ -1,0 +1,263 @@
+/* BODY AND SECTIONS */
+/* ----------------------------------------------------- */
+/* All body and section styling available here (except for the fonts, which are declared in the defaults+fonts.css). Some properties have already been declared */
+
+body {
+  padding: 40px 10%;
+  background-color: rgb(235, 235, 235) ;  
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+section > h2 {
+text-align: center;
+line-height: 1;
+border-bottom: 1px solid black;
+padding-bottom: 8px;
+}
+
+section > em {
+display: block;
+margin: 8px 0;
+text-align: center;
+}
+
+section > div {padding: 10px;}
+
+
+#s6 > div {background-color: #B298DC;}
+#s7 > div {background-color: #BDC696;}
+
+
+
+/* SECTION 1 */
+/* ----------------------------------------------------- */
+
+#s1 span {
+  background-color: ;
+  mix-blend-mode: ;
+}
+
+#s1 > div > p {
+  margin: 0;
+}
+
+#s1 > div {
+  background-color: lightgoldenrodyellow;
+  column-count: 3;
+}
+
+@media screen and (min-width: 1024px) {
+  #s1 div {
+    background-color:#BDC696;
+    column-count: 2;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #s1 div {
+    background-color:#FF5964;
+    column-count: 1;
+    font-size: 14px;
+  }
+}
+  
+
+/* SECTION 2 */
+/* ----------------------------------------------------- */
+
+#s2 > div {
+  background-color: #CDEAC0;
+}
+
+#s2 > div > div {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#s2 > div > div:nth-child(1){
+  background-color: #B298DC;
+}
+
+#s2 > div > div:nth-child(2){
+  background-color: #FF5964;
+}
+
+#s2 > div {
+  height: 70vh;
+}
+
+#s2 > div > div:nth-child(1){
+  height: 40px;
+}
+
+#s2 > div > div:nth-child(2){
+  height: calc(100% - 70px);
+}
+
+@media screen and (max-width: 600px) {
+  #s2 > div > div:nth-child(1){
+  background-color: #ca8186;
+  }
+
+#s2 > div > div:nth-child(2){
+  background-color: #0b727b;
+  }  
+}
+
+@media screen and (min-width: 1024px) {
+  #s2 > div > div:nth-child(1){
+  background-color: #d4bdbf;
+  }
+
+#s2 > div > div:nth-child(2){
+  background-color: #9fc9cd;
+  }  
+}
+
+/* SECTION 3 */
+/* ----------------------------------------------------- */
+
+#s3 > div {
+  background-color: #FF5964;
+}
+
+#s3 > div > div {
+  width: 400px;
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+}
+/* my code*/
+#s3 div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+  #s3 > div {
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    flex-direction: column;
+  }
+  
+  #s3 > div > div {
+    width: 100%;
+    background-color: lightslategray;
+    margin: 5px 0px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  #s3 > div {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  #s3 > div > div {
+    width: calc(50% - 10px);
+    background-color:#dae89c;
+    margin: 5px;
+    padding: 10px;
+  }
+}
+
+/* SECTION 4 */
+/* ----------------------------------------------------- */
+
+#s4 > div {
+  background-color: #B8F3FF;
+  padding: 0;
+}
+
+#s4 > div > div {
+  background-color: white;
+  margin: 0px;
+}
+
+#s4 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+  
+#s4 > div > div {
+    width: 33%;
+    background-color:#dae89c;
+   
+}
+
+@media screen and (max-width: 600px) {
+  #s4 > div {
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    flex-direction: column;
+  }
+  
+  #s4 > div > div {
+    width: 100%;
+  }
+
+ 
+}
+
+
+/* SECTION 5 */
+/* ----------------------------------------------------- */
+
+#s5 > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#s5 > div > span {
+  background-color: #B298DC;
+  padding: 10px;
+  margin: 10px;
+}
+
+#s5 > button {
+  padding: 10px;
+  background-color: #BDC696;
+  font-family: 'FT88', monospace;
+  margin: 10px;
+  display: none;
+}
+
+#box {
+ background-color: #B8F3FF;
+ padding: 10px;
+ /* display: none; */
+ visibility: hidden;
+ width: 120px;
+}
+
+#box > ul {
+  margin: 0;
+  padding: 10px;
+} 
+
+@media screen and (max-width: 600px){
+  #s5 div:nth-of-type(1){
+    visibility: hidden;
+  }
+
+  #s5 button{
+    display: flex;
+    visibility: visible;
+  }
+}
+
+
