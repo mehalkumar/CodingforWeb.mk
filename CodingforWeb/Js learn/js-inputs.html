@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
+
+</head>
+
+<body>
+
+    <h1 id="qwer">BUTTONS IN JS</h1>
+    <br>
+    <h2>Change the heading here!</h2>
+    <br>
+    <div class="center">
+        <input type="text" id="text-input" oninput="outputText()">
+    </div>
+    <br>
+
+    <p id="paragraph">This is a webpage where Javascript has been used to create a Button, Type Input, Radio, Range, and
+        Dropdown
+        elements.</p>
+    <br>
+    <div class="center">
+        <h3 style="font-weight: bold;">Choose your Font for the paragraph</h3>
+        <input type="radio" id="font1" name="font-options" value="cursive" onclick="fontchoice1()">
+        <label for="font1">Cursive</label>
+        <input type="radio" id="font2" name="font-options" value="sans-serif" onclick="fontchoice2()">
+        <label for="font2">Sans-Serif</label>
+        <input type="radio" id="font3" name="font-options" value="serif" onclick="fontchoice3()">
+        <label for="font3">Serif</label>
+    </div>
+
+    <br>
+    <h2>Empty Container</h2>
+    <div id="empty"></div>
+    <br>
+    <div class="center">
+        <input type='range' id="slider" oninput="funcslide()" min="400" max="2000">
+    </div>
+    <br>
+
+    <h2>Image</h2>
+    <div class="center">
+        <br>
+        <img id="img" src="" alt="Selected Image" height="400px" width="400px">
+        <br>
+            <label for="imageSelect">Choose Image</label>
+            <select name="dropdown" id="imageSelect" onchange="choosePic()">
+                <option value="">No Image</option>
+                <option value="./images/Golden-Retriever.jpeg">Golden Retriever</option>
+                <option value="./images/Pit-Bull.jpeg">Pit Bull Puppy</option>
+                <option value="./images/Dalmatian.jpeg">Dalmatian</option>
+            </select>
+            <br>
+    </div>
+    <br>
+
+    <br>
+
+    <h2>How to make a button and make it function</h2>
+    <div id="box"></div>
+    <button id="click" onclick="myfunc()">Click me</button>
+    <br>
+    <br>
+
+
+</body>
+
+</html>
