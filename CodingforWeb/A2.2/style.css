@@ -179,7 +179,7 @@ h2{
 
 .firstp {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 130%;
+    font-size: 100%;
 }
 
 p {
@@ -219,12 +219,20 @@ p {
     .box{
         width: 45%;
     }
+
+    .firstp {
+    font-size: 110%;
+}
 }
 
 @media screen and (max-width: 600px){
     .box{
         width: 95%;
     }
+
+    .firstp {
+    font-size: 120%;
+}
 }
 
 @media screen and (max-width: 870px) and (min-width: 600px){
