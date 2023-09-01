@@ -1,13 +1,36 @@
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+/* BUTTONS */
+
+.button{
+    padding: 10px 30px;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 10px;
+    background-color: #016A70;
+    transition: 0.5;
+    color: whitesmoke;
 }
 
-html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+.button:hover{
+    border: none;
+    background-color: #77a4a6;
+    color: #016A70;
+    scale: 110%;
+}
+
+.button-asm{
+    padding: 10px 30px;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 10px;
+    background-color: #b5ba76;
+    transition: 0.5;
+}
+
+.button-asm:hover{
+    border: none;
+    background-color: #565c06;
+    color: whitesmoke;
+    scale: 115%;
 }
 
 body {
@@ -27,20 +50,22 @@ img {
     max-width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
     font-weight: normal;
 }
 
-
-/* FONTS ONLY */
-/* ----------------------------------------------------- */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
     font-family:Arial, Helvetica, sans-serif;
     letter-spacing: -0.05rem;
 }
@@ -52,10 +77,6 @@ h2 {
 body>aside {
     font-size: 0.8em;
 }
-
-/* BODY AND SECTIONS */
-/* ----------------------------------------------------- */
-/* All body and section styling available here (except for the fonts, which are declared in the defaults+fonts.css). Some properties have already been declared */
 
 body {
     padding: 40px 10%;
@@ -90,7 +111,6 @@ ul.dashed>ol:before {
 }
 
 
-
 section {
     padding: 20px;
     background-color: #FFFFDD;
@@ -119,8 +139,6 @@ section>div {
     padding-bottom: 5px;
 }
 
-/* SECTION 4 */
-/* ----------------------------------------------------- */
 .radius{
     border-radius: 10px 0;
 }
@@ -180,37 +198,3 @@ h3{
     }
 }
 
-/* BUTTONS */
-
-.button{
-    padding: 10px 30px;
-    margin: 10px;
-    margin-left: 0;
-    border-radius: 10px;
-    background-color: #016A70;
-    transition: 0.5;
-    color: whitesmoke;
-}
-
-.button:hover{
-    border: none;
-    background-color: #77a4a6;
-    color: #016A70;
-    scale: 110%;
-}
-
-.button-asm{
-    padding: 10px 30px;
-    margin: 10px;
-    margin-left: 0;
-    border-radius: 10px;
-    background-color: #b5ba76;
-    transition: 0.5;
-}
-
-.button-asm:hover{
-    border: none;
-    background-color: #565c06;
-    color: whitesmoke;
-    scale: 115%;
-}
