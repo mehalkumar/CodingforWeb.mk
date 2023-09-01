@@ -1,35 +1,216 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#s4{
+    border-radius: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+
+/* FONTS ONLY */
+/* ----------------------------------------------------- */
+
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: -0.05rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+body>aside {
+    font-size: 0.8em;
+}
+
+/* BODY AND SECTIONS */
+/* ----------------------------------------------------- */
+/* All body and section styling available here (except for the fonts, which are declared in the defaults+fonts.css). Some properties have already been declared */
+
+body {
+    padding: 40px 10%;
+    background-color: #DAD4B5;
+    color: #A2C579;
+}
+
+ul {
+    margin: 0;
+}
+
+ul.dashed {
+    list-style-type: none;
+}
+
+ul.dashed>li {
+    text-indent: -5px;
+}
+
+ul.dashed>li:before {
+    content: "";
+    text-indent: -5px;
+}
+
+ul.dashed>ol {
+    text-indent: -5px;
+}
+
+ul.dashed>ol:before {
+    content: "";
+    text-indent: -5px;
+}
+
+
+
+section {
+    padding: 20px;
+    background-color: #FFFFDD;
+}
+
+section>h2 {
+    text-align: center;
+    line-height: 1;
+    border-bottom: 1px solid #A2C579;
+    padding-bottom: 8px;
+}
+
+section>em {
+    display: block;
+    margin: 8px 0;
+    font-size: calc(20px + 25%);
+    text-align: center;
+}
+
+section>div {
+    margin: 10px;
+}
+
+#s4>div {
+    background-color: #DAD4B5;
+    padding-bottom: 5px;
+}
+
+/* SECTION 4 */
+/* ----------------------------------------------------- */
+.radius{
+    border-radius: 10px 0;
+}
+
+h3{
+    padding: 10px; 
+    padding-left: 15px;
+    border-radius: 10px 0;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#s4>div {
+    width: 47%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#s4>div:nth-of-type(2) {
+    padding-bottom: 1px;
+}
+
+#s4>div:nth-of-type(1)>h3 {
+    background-color: #A2C579;
+    color: #FFFFDD;
+}
+
+#s4>div:nth-of-type(2)>h3 {
+    background-color: #A2C579;
+    color: #FFFFDD;
+}
+
+
+@media screen AND (max-width: 1200px) {
+    section {
+        padding: 20px;
+        padding-bottom: 20px;
+    }
+
+    #s4>div {
+        width: 95%;
+    }
+
+    #s4>div:nth-of-type(1) {
+        float: none;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    #s4>div:nth-of-type(2) {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen AND (min-width: 1920px) {
+    html{
+        zoom: 150%;
+    }
+}
+
+/* BUTTONS */
+
 .button{
     padding: 10px 30px;
     margin: 10px;
+    margin-left: 0;
     border-radius: 10px;
-    border-color: #2b696a;
-    background-color: #abcdce;
-    border-style: dashed;
+    background-color: #016A70;
     transition: 0.5;
+    color: whitesmoke;
 }
 
 .button:hover{
     border: none;
-    background-color: #a7eaec;
-    scale: 115%;
+    background-color: #77a4a6;
+    color: #016A70;
+    scale: 110%;
 }
 
 .button-asm{
     padding: 10px 30px;
     margin: 10px;
+    margin-left: 0;
     border-radius: 10px;
-    border-color: #c9a802;
-    background-color: #efeeae;
+    background-color: #b5ba76;
     transition: 0.5;
 }
 
 .button-asm:hover{
     border: none;
-    background-color: #f7f59c;
+    background-color: #565c06;
+    color: whitesmoke;
     scale: 115%;
-}
-
-hr{
-    border: 5px dashed #2b696a;
-    border-radius: 5px;
 }
