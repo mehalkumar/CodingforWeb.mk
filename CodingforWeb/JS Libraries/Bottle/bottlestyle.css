@@ -1,0 +1,78 @@
+.main{ 
+    display: flex;
+    background-color: black;
+}
+
+.fixed-side{
+    position: sticky;
+    top: 20px;
+    height: 90vh;
+}
+
+model-viewer{
+    height: 80vh;
+    width: 50vw;
+}
+
+.scrollable-side{
+    background-color: white;
+    padding: 0 5vw;
+}
+
+.Hbottle, h2{
+    padding: 3vh 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.software{
+    display: flex;
+}
+
+.contentpara{
+    padding: 0 3vh;
+
+}
+
+.colorBottle{
+    width: 40vw;
+}
+
+.fdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1vw;
+}
+
+.fdiv img{
+    width: 18vw;
+}
+
+.ideation, .measurement{
+    width: 40vw;
+}
+
+
+/* ---------------------NAVBAR CSS----------------------- */
+
+/* ULTIMATE */
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  padding: 3vh 0;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+  z-index: 1;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
